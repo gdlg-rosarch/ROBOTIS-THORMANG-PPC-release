@@ -1,0 +1,12 @@
+Source: ros-kinetic-thormang3-manipulation-demo
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-robotis-controller-msgs, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-thormang3-manipulation-module-msgs
+Homepage: http://wiki.ros.org/thormang3_ppc
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-thormang3-manipulation-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp, ros-kinetic-std-msgs
+Description: The thormang3_manipulation_demo package
