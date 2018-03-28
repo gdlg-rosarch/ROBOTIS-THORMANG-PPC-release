@@ -1,0 +1,35 @@
+ros-kinetic-thormang3-walking-demo (0.2.0-0xenial) xenial; urgency=high
+
+  * modified cmake & package for yaml-cpp
+  * changed package.xml format to v2
+  * refactoring to release
+  * Contributors: Pyo, SCH
+
+ -- Pyo <pyo@robotis.com>  Tue, 27 Mar 2018 15:00:00 -0000
+
+ros-kinetic-thormang3-walking-demo (0.1.2-0xenial) xenial; urgency=high
+
+  * updated cmake file for ros install
+  * Contributors: SCH
+
+ -- Pyo <pyo@robotis.com>  Mon, 22 May 2017 15:00:00 -0000
+
+ros-kinetic-thormang3-walking-demo (0.1.1-0xenial) xenial; urgency=high
+
+  * added option for dependencies
+  * modified balance param and remove error of negative cut off freq
+  * modified msg to walking demo
+  * Contributors: Jay Song, Zerom, SCH
+
+ -- Pyo <pyo@robotis.com>  Sun, 23 Apr 2017 15:00:00 -0000
+
+ros-kinetic-thormang3-walking-demo (0.1.0-0xenial) xenial; urgency=high
+
+  * ready for first release
+  * modified thormang3_walking_demo/package.xml
+  * modified code for ROS C++ coding style
+  * Contributors: Jay Song, SCH, Zerom, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 16 Aug 2016 15:00:00 -0000
+
+
