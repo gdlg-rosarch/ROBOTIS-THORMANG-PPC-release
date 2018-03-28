@@ -1,0 +1,33 @@
+ros-kinetic-thormang3-sensors (0.2.0-0xenial) xenial; urgency=high
+
+  * changed package.xml format to v2
+  * refactoring to release
+  * Contributors: Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 27 Mar 2018 15:00:00 -0000
+
+ros-kinetic-thormang3-sensors (0.1.2-0xenial) xenial; urgency=high
+
+  * updated cmake file for ros install
+  * Contributors: SCH
+
+ -- Pyo <pyo@robotis.com>  Mon, 22 May 2017 15:00:00 -0000
+
+ros-kinetic-thormang3-sensors (0.1.1-0xenial) xenial; urgency=high
+
+  * added option for dependencies
+  * modified launch file for new version of realsense
+  * Contributors: Jay Song, SCH
+
+ -- Pyo <pyo@robotis.com>  Sun, 23 Apr 2017 15:00:00 -0000
+
+ros-kinetic-thormang3-sensors (0.1.0-0xenial) xenial; urgency=high
+
+  * ready for first release
+  * added description in thormang3_sensors/package.xml
+  * thormang3_sensors : modified codefor ROS coding style
+  * Contributors: Jay Song, SCH, Zerom, Kayman, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 16 Aug 2016 15:00:00 -0000
+
+
