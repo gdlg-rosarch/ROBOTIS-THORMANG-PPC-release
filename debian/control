@@ -1,0 +1,13 @@
+Source: ros-kinetic-thormang3-sensors
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-kinetic-catkin, ros-kinetic-laser-assembler, ros-kinetic-pcl-conversions, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/thormang3_sensors
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-thormang3-sensors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, ros-kinetic-laser-assembler, ros-kinetic-laser-filters, ros-kinetic-pcl-conversions, ros-kinetic-realsense-camera, ros-kinetic-rgbd-launch, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-uvc-camera
+Description: This package contains sensor related launch files.
+ The package also includes a node for assembling Laserscan(LaserScan to PointCloud)
